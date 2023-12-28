@@ -1,0 +1,16 @@
+<model-viewer src="Desk1.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="1" camera-orbit="5.131deg 79.81deg 8.719m" field-of-view="30deg">
+    <button class="Hotspot" slot="hotspot-1" data-position="0.42877514038102904m 1.8590171252270988m 1.2959257884999207m" data-normal="-0.08261148129905643m 0.9439432034193079m 0.31960377325067807m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Sunshade</div>
+    </button><button class="Hotspot" slot="hotspot-2" data-position="0.41800036602417645m 0.4920975375145309m 0.2326600171339528m" data-normal="0.6819982901210895m -2.3262273258324331e-7m 0.7313537668405463m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Seat</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
